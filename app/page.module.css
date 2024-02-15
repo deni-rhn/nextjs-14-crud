@@ -1,0 +1,128 @@
+.container {
+  /* background-color: ${colors.B100}; */
+  min-height: 100vh;
+  min-width: 100vw;
+  display: inline-flex;
+}
+
+.detailInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px;
+  min-height: 106px;
+  border-radius: 5px;
+  max-width: 311px;
+  background: white;
+  margin-top: 15px;
+}
+
+.secondaryDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400px;
+  color: #7d7d7d;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.columnStyle {
+  margin: 8px;
+  display: flex;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.taskList {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  background: #f3f3f3;
+  min-width: 341px;
+  border-radius: 5px;
+  padding: 15px 15px;
+  margin-right: 45px;
+}
+
+.fontColor {
+  color: #000;
+}
+
+.createButton {
+  background-color: #0055CC;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.taskTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.taskDesc {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.todoStatus {
+  background-color: #FEA362;
+  color: #FFF;
+  padding: 3px 10px;
+  font-size: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.doneStatus {
+  background-color: #128548;
+  color: #FFF;
+  padding: 3px 10px;
+  font-size: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.actionButton {
+  background-color: #0A326C;
+  border: 0;
+  padding: 2px 7px;
+  border-radius: 4px 7px;
+  cursor: pointer;
+}
+
+.inputCommon {
+  background: #FFF;
+  border: 0;
+  color: #333;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 50%;
+  margin-top: 5px;
+}
+
+.errText {
+  color: #F77167;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.createWrapper {
+  margin-top: 25px;
+  text-align: center;
+}
